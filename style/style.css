@@ -1,0 +1,97 @@
+/* * {
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+	height: 100%;
+}
+.wrapper {
+	position: relative;
+	min-height: 100%;
+}
+.content {
+	padding-bottom: 90px;
+}
+.footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+} */
+
+/* центровка 2 способ */
+
+/* * {
+	margin: 0;
+	padding: 0;
+}
+html,
+body,
+.wrapper {
+	height: 100%;
+}
+.content {
+	box-sizing: border-box;
+	min-height: 100%;
+	padding-bottom: 90px;
+}
+.footer {
+	height: 80px;
+	margin-top: -80px;
+} */
+
+/* центровка 3 способ */
+
+/* * {
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+	height: 100%;
+}
+.wrapper {
+	display: table;
+	height: 100%;
+}
+.content {
+	display: table-row;
+	height: 100%;
+} */
+
+/* центровка 4 способ */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+.content {
+	min-height: calc(100vh - 80px);
+}
+.footer {
+	padding: 80px;
+}
+
+/* центровка 5 способ */
+
+/* * {
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+	height: 100%;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.content {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+} */
